@@ -275,7 +275,7 @@ public class JsonToScriptableConverter : EditorWindow
             foreach (var dialog in createDialogs)
             {
                 // 스크립터블 오브젝트 저장 - ID 4자리 숫자
-                string assetPath = $"{outputFolder}/Dialog {dialog.id.ToString("D4")}.asset";
+                string assetPath = $"{outputFolder}/Dialog_{dialog.id.ToString("D4")}.asset";
                 AssetDatabase.CreateAsset(dialog, assetPath);
 
                 // 에셋 이름 지정
