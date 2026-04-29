@@ -946,6 +946,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f233fb41f33a3724886bc00624234876, type: 2}
   - {fileID: 11400000, guid: 4f7f394305fc9fc42884f333cdecc49f, type: 2}
   - {fileID: 11400000, guid: 7ec7d8897c69ac34a95d69341ee379c9, type: 2}
+  - {fileID: 11400000, guid: fa4f97305df64974588b6d21668aa985, type: 2}
+  - {fileID: 11400000, guid: fa4f97305df64974588b6d21668aa985, type: 2}
+  - {fileID: 11400000, guid: fa4f97305df64974588b6d21668aa985, type: 2}
+  - {fileID: 11400000, guid: d51e241dda83305458d93f11cfeb0829, type: 2}
+  - {fileID: 11400000, guid: d51e241dda83305458d93f11cfeb0829, type: 2}
+  - {fileID: 11400000, guid: d51e241dda83305458d93f11cfeb0829, type: 2}
   handCards: []
   discardCards: []
   cardPrefab: {fileID: 9188840793840879224, guid: 39d21d4705ffeef4fbf83f0eb392be54, type: 3}
@@ -954,6 +960,7 @@ MonoBehaviour:
   discardPosition: {fileID: 345381747}
   cardObjects: []
   playerStats: {fileID: 309683934}
+  enemyStats: {fileID: 0}
 --- !u!4 &1658754808
 Transform:
   m_ObjectHideFlags: 0
